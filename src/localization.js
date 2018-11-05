@@ -1,6 +1,7 @@
 var template = {};
 tDocLoader();
 
+//Is 'chrome' a worng object to use in edge?
 function t(key, params) {
 	var s = chrome.i18n.getMessage(key, params)
 	if (s == "") {
